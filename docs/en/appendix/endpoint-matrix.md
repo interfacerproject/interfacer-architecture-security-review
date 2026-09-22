@@ -1,6 +1,6 @@
 > **English edition.** [Italian version](../../it/appendix/endpoint-matrix.md) · Technical terms and commit-pinned evidence are shared across both editions.
 
-# REST matrix endpoint and input
+# REST endpoint and ingress matrix
 
 The lines describe source routes, not Internet reachability. For Next.js the files do not always enforce the HTTP method: GET-only is not assumed. For full conditions read [audit](../04-authorization-audit.md). Internal primitives are not remote endpoints.
 

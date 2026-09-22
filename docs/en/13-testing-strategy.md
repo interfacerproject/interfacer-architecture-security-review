@@ -8,13 +8,13 @@ In the SDK checkout: `./node_modules/.bin/vitest run src/__tests__/unit.test.ts`
 
 An Elixir verification of the temporal expression of `Email.Domain.token_validate` with synthetic timestamps was also performed: the discrepancy described in [F11](04-authorization-audit.md) was confirmed. A real token has not been generated or verified.
 
-The current test feedback contracts use stubs and routers without auth middleware: [internal/handler/test_helper_test.go:10–32](https://github.com/interfacerproject/interfacer-feedback-service/blob/d905a82a02d4115b13c87557591b7ddca6eb39b1/internal/handler/test_helper_test.go#L10-L32). Even if passed, they would not prove the correctness of identity binding.
+The current feedback service tests use stubs and routers without authentication middleware: [internal/handler/test_helper_test.go:10–32](https://github.com/interfacerproject/interfacer-feedback-service/blob/d905a82a02d4115b13c87557591b7ddca6eb39b1/internal/handler/test_helper_test.go#L10-L32). Even if passed, they would not prove the correctness of identity binding.
 
-No Zenflows tests with database/Restroom, DPP tests with Mongo/MinIO/DID, or browser tests connected to shared services. Go not available in session PATH; You have not installed/run a live server environment. ExUnit uses SQL Sandbox but the runtime configuration can point to non-isolated DBs: this is not a sufficient guarantee without dedicated setup.
+We did not run Zenflows tests with a database/Restroom, DPP tests with Mongo/MinIO/DID, or browser tests connected to shared services. Go was not available in the session `PATH`, and no live server environment was installed or started. ExUnit uses SQL Sandbox, but runtime configuration can point to non-isolated databases; this is not a sufficient guarantee without a dedicated setup.
 
 Site build, link, Mermaid and inventory checker results: [validation report](appendix/validation.md). The following tests are **specifications to be implemented**, not already achieved successes.
 
-## Proposed insulated harness
+## Proposed isolated test harness
 
 Composed of separate tests with PostgreSQL, MongoDB, private MinIO, temporary SQLite, fake DID/Restroom and controlled clock; network without access to production. Keys generated exclusively for fixtures. Separate crypto contract tests with real Zenroom and synthetic vectors. At startup reject URL not loopback/allowlist test, DB name not test, shared credentials; deny external egress. Explicit seeding, before/after snapshots, teardown confined to test volumes.
 

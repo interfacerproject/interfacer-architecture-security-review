@@ -2,7 +2,7 @@
 
 # 06 · Digital Product Passport
 
-## Loop implemented
+## Implemented lifecycle
 
 | Operation | Real Behavior | Current control |
 |---|---|---|
