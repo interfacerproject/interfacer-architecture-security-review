@@ -1,0 +1,204 @@
+{
+  "date": "2026-09-21T15:30:50.340931+00:00",
+  "repositories": [
+    {
+      "name": "interfacer-client",
+      "commit": "dfb1baabf16516a845957d5587ccb933c1874221",
+      "url": "https://github.com/interfacerproject/interfacer-client",
+      "local_path": "interfacer-client",
+      "submodules": [],
+      "dirty": []
+    },
+    {
+      "name": "interfacer-docs",
+      "commit": "da1e1e840f738c5362ae2e7028df9481903590ae",
+      "url": "https://github.com/interfacerproject/interfacer-docs",
+      "local_path": ".analysis-sources/interfacer-docs",
+      "submodules": [
+        {
+          "path": ".reuse",
+          "commit": "2f4dc7dca0e04bf8f9eb8e6feb49ff6bcde9f795"
+        }
+      ],
+      "dirty": []
+    },
+    {
+      "name": "interfacer-dpp",
+      "commit": "5f6ae20380ae80716ac6a8742b69bdc82e141296",
+      "url": "https://github.com/interfacerproject/interfacer-dpp",
+      "local_path": "interfacer-dpp",
+      "submodules": [
+        {
+          "path": "internal/auth/zenflows-crypto",
+          "commit": "0ffcce9b90799c9cb61f11fc594aeb513a01326f"
+        }
+      ],
+      "dirty": []
+    },
+    {
+      "name": "interfacer-feedback-service",
+      "commit": "d905a82a02d4115b13c87557591b7ddca6eb39b1",
+      "url": "https://github.com/interfacerproject/interfacer-feedback-service",
+      "local_path": "interfacer-feedback-service",
+      "submodules": [
+        {
+          "path": "internal/auth/zenflows-crypto",
+          "commit": "0ffcce9b90799c9cb61f11fc594aeb513a01326f"
+        }
+      ],
+      "dirty": []
+    },
+    {
+      "name": "interfacer-gui",
+      "commit": "9afe601d4d28dd6ccc0b4db2092da65f8055823e",
+      "url": "https://github.com/interfacerproject/interfacer-gui",
+      "local_path": "interfacer-gui",
+      "submodules": [
+        {
+          "path": ".reuse",
+          "commit": "2f4dc7dca0e04bf8f9eb8e6feb49ff6bcde9f795"
+        },
+        {
+          "path": "components/interfacer-dpp",
+          "commit": "76b17cc479a0fba9c014d624bc3ad14823c1ac78"
+        },
+        {
+          "path": "zenflows-crypto",
+          "commit": "53dbe70a61cb016fb196b9f9d4687cd3d26febcb"
+        }
+      ],
+      "dirty": [
+        " M hooks/useProjectCRUD.ts",
+        "?? .agents/skills/impeccable/",
+        "?? Card.png"
+      ]
+    },
+    {
+      "name": "interfacer-proxy",
+      "commit": "10d07344e2bcf7e3673f906e51aeb52cd6abf0cb",
+      "url": "https://github.com/interfacerproject/interfacer-proxy",
+      "local_path": "interfacer-proxy",
+      "submodules": [
+        {
+          "path": ".reuse",
+          "commit": "2f4dc7dca0e04bf8f9eb8e6feb49ff6bcde9f795"
+        }
+      ],
+      "dirty": []
+    },
+    {
+      "name": "zenflows",
+      "commit": "893489d81fddf07e470094e72863958de402cca7",
+      "url": "https://github.com/interfacerproject/zenflows",
+      "local_path": "zenflows",
+      "submodules": [
+        {
+          "path": ".reuse",
+          "commit": "2f4dc7dca0e04bf8f9eb8e6feb49ff6bcde9f795"
+        },
+        {
+          "path": "zencode",
+          "commit": "53dbe70a61cb016fb196b9f9d4687cd3d26febcb"
+        }
+      ],
+      "dirty": []
+    },
+    {
+      "name": "zenflows-bank",
+      "commit": "e5c2d2e6bd1ad072d1575de0a2be983854429b35",
+      "url": "https://github.com/interfacerproject/zenflows-bank",
+      "local_path": ".analysis-sources/zenflows-bank",
+      "submodules": [],
+      "dirty": []
+    },
+    {
+      "name": "zenflows-crypto",
+      "commit": "0ffcce9b90799c9cb61f11fc594aeb513a01326f",
+      "url": "https://github.com/interfacerproject/zenflows-crypto",
+      "local_path": ".analysis-sources/zenflows-crypto",
+      "submodules": [
+        {
+          "path": ".reuse",
+          "commit": "2f4dc7dca0e04bf8f9eb8e6feb49ff6bcde9f795"
+        },
+        {
+          "path": "test/bats",
+          "commit": "e222fc64047493adcb3151e60c13bb19b350b97b"
+        },
+        {
+          "path": "test/test_helper/bats-assert",
+          "commit": "ffe84ea5dd43b568851549b3e241db150c12929c"
+        },
+        {
+          "path": "test/test_helper/bats-file",
+          "commit": "c7df56ce2ffbd08d3e85c9d91f67981b7f317bf8"
+        },
+        {
+          "path": "test/test_helper/bats-support",
+          "commit": "3c8fadc5097c9acfc96d836dced2bb598e48b009"
+        }
+      ],
+      "dirty": []
+    },
+    {
+      "name": "zenflows-fabaccess",
+      "commit": "8294b50a9e97f2ef85ad72fc0bc0cff66af33cfc",
+      "url": "https://github.com/interfacerproject/zenflows-fabaccess",
+      "local_path": ".analysis-sources/zenflows-fabaccess",
+      "submodules": [
+        {
+          "path": "pyfabapi",
+          "commit": "2383a6cc0dd3c49a677e05e5cedd6854d89f4237"
+        },
+        {
+          "path": "zenflows-crypto",
+          "commit": "49c4f42c667d53101efaec52617b19b0abc96089"
+        }
+      ],
+      "dirty": []
+    },
+    {
+      "name": "zenflows-inbox",
+      "commit": "963ae1d38116fb17ed35d6524ca7cfb8f16c0efd",
+      "url": "https://github.com/interfacerproject/zenflows-inbox",
+      "local_path": ".analysis-sources/zenflows-inbox",
+      "submodules": [
+        {
+          "path": "zenflows-crypto",
+          "commit": "b28ddcf14532aa8950d95af63c0e2b2cf2cd8b34"
+        }
+      ],
+      "dirty": []
+    },
+    {
+      "name": "zenflows-osh",
+      "commit": "56855d426ffd884d91dd72373a2292f1ae5695ed",
+      "url": "https://github.com/interfacerproject/zenflows-osh",
+      "local_path": ".analysis-sources/zenflows-osh",
+      "submodules": [
+        {
+          "path": ".reuse",
+          "commit": "2f4dc7dca0e04bf8f9eb8e6feb49ff6bcde9f795"
+        }
+      ],
+      "dirty": []
+    },
+    {
+      "name": "zenflows-wallet",
+      "commit": "f5cf1668afe371329ed827d0bb56557e0bedcda6",
+      "url": "https://github.com/interfacerproject/zenflows-wallet",
+      "local_path": ".analysis-sources/zenflows-wallet",
+      "submodules": [
+        {
+          "path": ".reuse",
+          "commit": "2f4dc7dca0e04bf8f9eb8e6feb49ff6bcde9f795"
+        },
+        {
+          "path": "zenflows-crypto",
+          "commit": "6b780619fbbb6fc5d148016dcc05968db67b1a20"
+        }
+      ],
+      "dirty": []
+    }
+  ]
+}

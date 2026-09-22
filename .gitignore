@@ -1,0 +1,12 @@
+.venv/
+site/
+node_modules/
+__pycache__/
+.validation/
+.DS_Store
+.env
+.env.*
+private/
+*-RISERVATO.md
+
+.translation-cache.json

@@ -1,0 +1,131 @@
+site_name: Interfacer · Architecture and security review
+site_description: Bilingual code-based review of Interfacer trust boundaries and authorization roadmap.
+site_author: Interfacer internal technical review
+site_dir: site
+use_directory_urls: true
+strict: true
+copyright: Source review · PROPOSED decisions · No deployment attestation
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  font: false
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Dark theme
+    - scheme: slate
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Light theme
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search:
+      lang:
+        - en
+        - it
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: diagram
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_css:
+  - assets/review.css
+extra_javascript:
+  - assets/vendor/mermaid.min.js
+  - assets/diagrams.js
+
+nav:
+  - Choose language · Scegli lingua: index.md
+  - English:
+      - Home: en/index.md
+      - Summary and context:
+          - Executive summary: en/01-executive-summary.md
+          - Current architecture: en/02-current-architecture.md
+          - Authentication: en/03-authentication-analysis.md
+      - Code analysis:
+          - Authorization audit: en/04-authorization-audit.md
+          - Zenflows and ValueFlows: en/05-zenflows-analysis.md
+          - Digital Product Passport: en/06-dpp-analysis.md
+          - Cross-service trust: en/07-cross-service-authorization.md
+          - Threat model: en/11-threat-model.md
+      - Proposed architecture:
+          - Permission model: en/08-permission-model.md
+          - Target architecture: en/09-proposed-architecture.md
+          - Medusa and marketplace: en/10-medusa-implications.md
+          - Alternatives: en/15-alternative-solutions.md
+      - Plan and decisions:
+          - Roadmap: en/12-migration-roadmap.md
+          - Testing strategy: en/13-testing-strategy.md
+          - Open questions: en/14-open-questions.md
+          - Proposed ADRs: en/16-decision-records.md
+          - Team discussion: en/17-team-discussion.md
+      - Appendices:
+          - Repositories and commits: en/appendix/repository-map.md
+          - REST endpoints: en/appendix/endpoint-matrix.md
+          - GraphQL mutations: en/appendix/mutation-matrix.md
+          - GraphQL queries: en/appendix/query-matrix.md
+          - Data model: en/appendix/data-model.md
+          - Code references: en/appendix/code-references.md
+          - Glossary: en/appendix/glossary.md
+          - Method and validation: en/appendix/validation.md
+          - Preview and publication: en/appendix/publication.md
+  - Italiano:
+      - Home: it/index.md
+      - Sintesi e contesto:
+          - Sintesi esecutiva: it/01-executive-summary.md
+          - Architettura attuale: it/02-current-architecture.md
+          - Autenticazione: it/03-authentication-analysis.md
+      - Analisi del codice:
+          - Audit autorizzazione: it/04-authorization-audit.md
+          - Zenflows e ValueFlows: it/05-zenflows-analysis.md
+          - Digital Product Passport: it/06-dpp-analysis.md
+          - Trust cross-service: it/07-cross-service-authorization.md
+          - Threat model: it/11-threat-model.md
+      - Architettura proposta:
+          - Modello permessi: it/08-permission-model.md
+          - Architettura target: it/09-proposed-architecture.md
+          - Medusa e marketplace: it/10-medusa-implications.md
+          - Alternative: it/15-alternative-solutions.md
+      - Piano e decisioni:
+          - Roadmap: it/12-migration-roadmap.md
+          - Strategia di test: it/13-testing-strategy.md
+          - Questioni aperte: it/14-open-questions.md
+          - ADR proposti: it/16-decision-records.md
+          - Discussione con il team: it/17-team-discussion.md
+      - Appendici:
+          - Repository e commit: it/appendix/repository-map.md
+          - Endpoint REST: it/appendix/endpoint-matrix.md
+          - Mutation GraphQL: it/appendix/mutation-matrix.md
+          - Query GraphQL: it/appendix/query-matrix.md
+          - Modello dati: it/appendix/data-model.md
+          - Riferimenti al codice: it/appendix/code-references.md
+          - Glossario: it/appendix/glossary.md
+          - Metodo e validazione: it/appendix/validation.md
+          - Anteprima e pubblicazione: it/appendix/publication.md

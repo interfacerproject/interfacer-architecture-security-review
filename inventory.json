@@ -1,0 +1,1432 @@
+[
+  {
+    "kind": "mutation",
+    "group": "mutation",
+    "name": "echo",
+    "symbol": "echo",
+    "path": "src/zenflows/gql/schema.ex",
+    "line": 123,
+    "auth": "S",
+    "resolver": null
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_agent_relationship",
+    "name": "createAgentRelationship",
+    "symbol": "create_agent_relationship",
+    "path": "src/zenflows/vf/agent_relationship/type.ex",
+    "line": 139,
+    "auth": "S",
+    "resolver": "create_agent_relationship"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_agent_relationship",
+    "name": "updateAgentRelationship",
+    "symbol": "update_agent_relationship",
+    "path": "src/zenflows/vf/agent_relationship/type.ex",
+    "line": 144,
+    "auth": "S",
+    "resolver": "update_agent_relationship"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_agent_relationship",
+    "name": "deleteAgentRelationship",
+    "symbol": "delete_agent_relationship",
+    "path": "src/zenflows/vf/agent_relationship/type.ex",
+    "line": 149,
+    "auth": "S",
+    "resolver": "delete_agent_relationship"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_agent_relationship_role",
+    "name": "createAgentRelationshipRole",
+    "symbol": "create_agent_relationship_role",
+    "path": "src/zenflows/vf/agent_relationship_role/type.ex",
+    "line": 120,
+    "auth": "S",
+    "resolver": "create_agent_relationship_role"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_agent_relationship_role",
+    "name": "updateAgentRelationshipRole",
+    "symbol": "update_agent_relationship_role",
+    "path": "src/zenflows/vf/agent_relationship_role/type.ex",
+    "line": 125,
+    "auth": "S",
+    "resolver": "update_agent_relationship_role"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_agent_relationship_role",
+    "name": "deleteAgentRelationshipRole",
+    "symbol": "delete_agent_relationship_role",
+    "path": "src/zenflows/vf/agent_relationship_role/type.ex",
+    "line": 130,
+    "auth": "S",
+    "resolver": "delete_agent_relationship_role"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_agreement",
+    "name": "createAgreement",
+    "symbol": "create_agreement",
+    "path": "src/zenflows/vf/agreement/type.ex",
+    "line": 95,
+    "auth": "S",
+    "resolver": "create_agreement"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_agreement",
+    "name": "updateAgreement",
+    "symbol": "update_agreement",
+    "path": "src/zenflows/vf/agreement/type.ex",
+    "line": 100,
+    "auth": "S",
+    "resolver": "update_agreement"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_agreement",
+    "name": "deleteAgreement",
+    "symbol": "delete_agreement",
+    "path": "src/zenflows/vf/agreement/type.ex",
+    "line": 105,
+    "auth": "S",
+    "resolver": "delete_agreement"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_economic_event",
+    "name": "createEconomicEvent",
+    "symbol": "create_economic_event",
+    "path": "src/zenflows/vf/economic_event/type.ex",
+    "line": 329,
+    "auth": "S",
+    "resolver": "create_economic_event"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_economic_event",
+    "name": "updateEconomicEvent",
+    "symbol": "update_economic_event",
+    "path": "src/zenflows/vf/economic_event/type.ex",
+    "line": 335,
+    "auth": "S",
+    "resolver": "update_economic_event"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_economic_resource",
+    "name": "updateEconomicResource",
+    "symbol": "update_economic_resource",
+    "path": "src/zenflows/vf/economic_resource/type.ex",
+    "line": 343,
+    "auth": "S",
+    "resolver": "update_economic_resource"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_economic_resource",
+    "name": "deleteEconomicResource",
+    "symbol": "delete_economic_resource",
+    "path": "src/zenflows/vf/economic_resource/type.ex",
+    "line": 348,
+    "auth": "S",
+    "resolver": "delete_economic_resource"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_intent",
+    "name": "createIntent",
+    "symbol": "create_intent",
+    "path": "src/zenflows/vf/intent/type.ex",
+    "line": 339,
+    "auth": "S",
+    "resolver": "create_intent"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_intent",
+    "name": "updateIntent",
+    "symbol": "update_intent",
+    "path": "src/zenflows/vf/intent/type.ex",
+    "line": 344,
+    "auth": "S",
+    "resolver": "update_intent"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_intent",
+    "name": "deleteIntent",
+    "symbol": "delete_intent",
+    "path": "src/zenflows/vf/intent/type.ex",
+    "line": 349,
+    "auth": "S",
+    "resolver": "delete_intent"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_keypairoom",
+    "name": "keypairoomServer",
+    "symbol": "keypairoom_server",
+    "path": "src/zenflows/keypairoom/type.ex",
+    "line": 27,
+    "auth": "G",
+    "resolver": "keypairoom_server"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_organization",
+    "name": "createOrganization",
+    "symbol": "create_organization",
+    "path": "src/zenflows/vf/organization/type.ex",
+    "line": 143,
+    "auth": "S",
+    "resolver": "create_organization"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_organization",
+    "name": "updateOrganization",
+    "symbol": "update_organization",
+    "path": "src/zenflows/vf/organization/type.ex",
+    "line": 149,
+    "auth": "S",
+    "resolver": "update_organization"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_organization",
+    "name": "deleteOrganization",
+    "symbol": "delete_organization",
+    "path": "src/zenflows/vf/organization/type.ex",
+    "line": 158,
+    "auth": "S",
+    "resolver": "delete_organization"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_person",
+    "name": "createPerson",
+    "symbol": "create_person",
+    "path": "src/zenflows/vf/person/type.ex",
+    "line": 225,
+    "auth": "A",
+    "resolver": "create_person"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_person",
+    "name": "updatePerson",
+    "symbol": "update_person",
+    "path": "src/zenflows/vf/person/type.ex",
+    "line": 232,
+    "auth": "S",
+    "resolver": "update_person"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_person",
+    "name": "deletePerson",
+    "symbol": "delete_person",
+    "path": "src/zenflows/vf/person/type.ex",
+    "line": 241,
+    "auth": "A",
+    "resolver": "delete_person"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_person",
+    "name": "claimPerson",
+    "symbol": "claim_person",
+    "path": "src/zenflows/vf/person/type.ex",
+    "line": 247,
+    "auth": "S",
+    "resolver": "claim_person"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_person",
+    "name": "personRequestEmailVerification",
+    "symbol": "person_request_email_verification",
+    "path": "src/zenflows/vf/person/type.ex",
+    "line": 257,
+    "auth": "S",
+    "resolver": "person_request_email_verification"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_person",
+    "name": "personVerifyEmailVerification",
+    "symbol": "person_verify_email_verification",
+    "path": "src/zenflows/vf/person/type.ex",
+    "line": 267,
+    "auth": "S",
+    "resolver": "person_verify_email_verification"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_plan",
+    "name": "createPlan",
+    "symbol": "create_plan",
+    "path": "src/zenflows/vf/plan/type.ex",
+    "line": 123,
+    "auth": "S",
+    "resolver": "create_plan"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_plan",
+    "name": "updatePlan",
+    "symbol": "update_plan",
+    "path": "src/zenflows/vf/plan/type.ex",
+    "line": 128,
+    "auth": "S",
+    "resolver": "update_plan"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_plan",
+    "name": "deletePlan",
+    "symbol": "delete_plan",
+    "path": "src/zenflows/vf/plan/type.ex",
+    "line": 133,
+    "auth": "S",
+    "resolver": "delete_plan"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_process",
+    "name": "createProcess",
+    "symbol": "create_process",
+    "path": "src/zenflows/vf/process/type.ex",
+    "line": 204,
+    "auth": "S",
+    "resolver": "create_process"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_process",
+    "name": "updateProcess",
+    "symbol": "update_process",
+    "path": "src/zenflows/vf/process/type.ex",
+    "line": 209,
+    "auth": "S",
+    "resolver": "update_process"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_process",
+    "name": "deleteProcess",
+    "symbol": "delete_process",
+    "path": "src/zenflows/vf/process/type.ex",
+    "line": 214,
+    "auth": "S",
+    "resolver": "delete_process"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_process_group",
+    "name": "createProcessGroup",
+    "symbol": "create_process_group",
+    "path": "src/zenflows/vf/process_group/type.ex",
+    "line": 149,
+    "auth": "S",
+    "resolver": "create_process_group"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_process_group",
+    "name": "updateProcessGroup",
+    "symbol": "update_process_group",
+    "path": "src/zenflows/vf/process_group/type.ex",
+    "line": 154,
+    "auth": "S",
+    "resolver": "update_process_group"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_process_group",
+    "name": "deleteProcessGroup",
+    "symbol": "delete_process_group",
+    "path": "src/zenflows/vf/process_group/type.ex",
+    "line": 159,
+    "auth": "S",
+    "resolver": "delete_process_group"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_process_specification",
+    "name": "createProcessSpecification",
+    "symbol": "create_process_specification",
+    "path": "src/zenflows/vf/process_specification/type.ex",
+    "line": 91,
+    "auth": "S",
+    "resolver": "create_process_specification"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_process_specification",
+    "name": "updateProcessSpecification",
+    "symbol": "update_process_specification",
+    "path": "src/zenflows/vf/process_specification/type.ex",
+    "line": 96,
+    "auth": "S",
+    "resolver": "update_process_specification"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_process_specification",
+    "name": "deleteProcessSpecification",
+    "symbol": "delete_process_specification",
+    "path": "src/zenflows/vf/process_specification/type.ex",
+    "line": 101,
+    "auth": "S",
+    "resolver": "delete_process_specification"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_product_batch",
+    "name": "createProductBatch",
+    "symbol": "create_product_batch",
+    "path": "src/zenflows/vf/product_batch/type.ex",
+    "line": 105,
+    "auth": "S",
+    "resolver": "create_product_batch"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_product_batch",
+    "name": "updateProductBatch",
+    "symbol": "update_product_batch",
+    "path": "src/zenflows/vf/product_batch/type.ex",
+    "line": 110,
+    "auth": "S",
+    "resolver": "update_product_batch"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_product_batch",
+    "name": "deleteProductBatch",
+    "symbol": "delete_product_batch",
+    "path": "src/zenflows/vf/product_batch/type.ex",
+    "line": 115,
+    "auth": "S",
+    "resolver": "delete_product_batch"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_proposal",
+    "name": "createProposal",
+    "symbol": "create_proposal",
+    "path": "src/zenflows/vf/proposal/type.ex",
+    "line": 198,
+    "auth": "S",
+    "resolver": "create_proposal"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_proposal",
+    "name": "updateProposal",
+    "symbol": "update_proposal",
+    "path": "src/zenflows/vf/proposal/type.ex",
+    "line": 203,
+    "auth": "S",
+    "resolver": "update_proposal"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_proposal",
+    "name": "deleteProposal",
+    "symbol": "delete_proposal",
+    "path": "src/zenflows/vf/proposal/type.ex",
+    "line": 208,
+    "auth": "S",
+    "resolver": "delete_proposal"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_proposed_intent",
+    "name": "proposeIntent",
+    "symbol": "propose_intent",
+    "path": "src/zenflows/vf/proposed_intent/type.ex",
+    "line": 57,
+    "auth": "S",
+    "resolver": "propose_intent"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_proposed_intent",
+    "name": "deleteProposedIntent",
+    "symbol": "delete_proposed_intent",
+    "path": "src/zenflows/vf/proposed_intent/type.ex",
+    "line": 64,
+    "auth": "S",
+    "resolver": "delete_proposed_intent"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_recipe_exchange",
+    "name": "createRecipeExchange",
+    "symbol": "create_recipe_exchange",
+    "path": "src/zenflows/vf/recipe_exchange/type.ex",
+    "line": 91,
+    "auth": "S",
+    "resolver": "create_recipe_exchange"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_recipe_exchange",
+    "name": "updateRecipeExchange",
+    "symbol": "update_recipe_exchange",
+    "path": "src/zenflows/vf/recipe_exchange/type.ex",
+    "line": 96,
+    "auth": "S",
+    "resolver": "update_recipe_exchange"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_recipe_exchange",
+    "name": "deleteRecipeExchange",
+    "symbol": "delete_recipe_exchange",
+    "path": "src/zenflows/vf/recipe_exchange/type.ex",
+    "line": 101,
+    "auth": "S",
+    "resolver": "delete_recipe_exchange"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_recipe_flow",
+    "name": "createRecipeFlow",
+    "symbol": "create_recipe_flow",
+    "path": "src/zenflows/vf/recipe_flow/type.ex",
+    "line": 174,
+    "auth": "S",
+    "resolver": "create_recipe_flow"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_recipe_flow",
+    "name": "updateRecipeFlow",
+    "symbol": "update_recipe_flow",
+    "path": "src/zenflows/vf/recipe_flow/type.ex",
+    "line": 179,
+    "auth": "S",
+    "resolver": "update_recipe_flow"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_recipe_flow",
+    "name": "deleteRecipeFlow",
+    "symbol": "delete_recipe_flow",
+    "path": "src/zenflows/vf/recipe_flow/type.ex",
+    "line": 184,
+    "auth": "S",
+    "resolver": "delete_recipe_flow"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_recipe_process",
+    "name": "createRecipeProcess",
+    "symbol": "create_recipe_process",
+    "path": "src/zenflows/vf/recipe_process/type.ex",
+    "line": 131,
+    "auth": "S",
+    "resolver": "create_recipe_process"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_recipe_process",
+    "name": "updateRecipeProcess",
+    "symbol": "update_recipe_process",
+    "path": "src/zenflows/vf/recipe_process/type.ex",
+    "line": 136,
+    "auth": "S",
+    "resolver": "update_recipe_process"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_recipe_process",
+    "name": "deleteRecipeProcess",
+    "symbol": "delete_recipe_process",
+    "path": "src/zenflows/vf/recipe_process/type.ex",
+    "line": 141,
+    "auth": "S",
+    "resolver": "delete_recipe_process"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_recipe_resource",
+    "name": "createRecipeResource",
+    "symbol": "create_recipe_resource",
+    "path": "src/zenflows/vf/recipe_resource/type.ex",
+    "line": 175,
+    "auth": "S",
+    "resolver": "create_recipe_resource"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_recipe_resource",
+    "name": "updateRecipeResource",
+    "symbol": "update_recipe_resource",
+    "path": "src/zenflows/vf/recipe_resource/type.ex",
+    "line": 180,
+    "auth": "S",
+    "resolver": "update_recipe_resource"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_recipe_resource",
+    "name": "deleteRecipeResource",
+    "symbol": "delete_recipe_resource",
+    "path": "src/zenflows/vf/recipe_resource/type.ex",
+    "line": 185,
+    "auth": "S",
+    "resolver": "delete_recipe_resource"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_resource_specification",
+    "name": "createResourceSpecification",
+    "symbol": "create_resource_specification",
+    "path": "src/zenflows/vf/resource_specification/type.ex",
+    "line": 141,
+    "auth": "S",
+    "resolver": "create_resource_specification"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_resource_specification",
+    "name": "updateResourceSpecification",
+    "symbol": "update_resource_specification",
+    "path": "src/zenflows/vf/resource_specification/type.ex",
+    "line": 146,
+    "auth": "S",
+    "resolver": "update_resource_specification"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_resource_specification",
+    "name": "deleteResourceSpecification",
+    "symbol": "delete_resource_specification",
+    "path": "src/zenflows/vf/resource_specification/type.ex",
+    "line": 151,
+    "auth": "S",
+    "resolver": "delete_resource_specification"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_role_behavior",
+    "name": "createRoleBehavior",
+    "symbol": "create_role_behavior",
+    "path": "src/zenflows/vf/role_behavior/type.ex",
+    "line": 94,
+    "auth": "S",
+    "resolver": "create_role_behavior"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_role_behavior",
+    "name": "updateRoleBehavior",
+    "symbol": "update_role_behavior",
+    "path": "src/zenflows/vf/role_behavior/type.ex",
+    "line": 100,
+    "auth": "S",
+    "resolver": "update_role_behavior"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_role_behavior",
+    "name": "deleteRoleBehavior",
+    "symbol": "delete_role_behavior",
+    "path": "src/zenflows/vf/role_behavior/type.ex",
+    "line": 106,
+    "auth": "S",
+    "resolver": "delete_role_behavior"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_satisfaction",
+    "name": "createSatisfaction",
+    "symbol": "create_satisfaction",
+    "path": "src/zenflows/vf/satisfaction/type.ex",
+    "line": 152,
+    "auth": "S",
+    "resolver": "create_satisfaction"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_satisfaction",
+    "name": "updateSatisfaction",
+    "symbol": "update_satisfaction",
+    "path": "src/zenflows/vf/satisfaction/type.ex",
+    "line": 157,
+    "auth": "S",
+    "resolver": "update_satisfaction"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_satisfaction",
+    "name": "deleteSatisfaction",
+    "symbol": "delete_satisfaction",
+    "path": "src/zenflows/vf/satisfaction/type.ex",
+    "line": 162,
+    "auth": "S",
+    "resolver": "delete_satisfaction"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_scenario",
+    "name": "createScenario",
+    "symbol": "create_scenario",
+    "path": "src/zenflows/vf/scenario/type.ex",
+    "line": 148,
+    "auth": "S",
+    "resolver": "create_scenario"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_scenario",
+    "name": "updateScenario",
+    "symbol": "update_scenario",
+    "path": "src/zenflows/vf/scenario/type.ex",
+    "line": 153,
+    "auth": "S",
+    "resolver": "update_scenario"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_scenario",
+    "name": "deleteScenario",
+    "symbol": "delete_scenario",
+    "path": "src/zenflows/vf/scenario/type.ex",
+    "line": 158,
+    "auth": "S",
+    "resolver": "delete_scenario"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_scenario_definition",
+    "name": "createScenarioDefinition",
+    "symbol": "create_scenario_definition",
+    "path": "src/zenflows/vf/scenario_definition/type.ex",
+    "line": 104,
+    "auth": "S",
+    "resolver": "create_scenario_definition"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_scenario_definition",
+    "name": "updateScenarioDefinition",
+    "symbol": "update_scenario_definition",
+    "path": "src/zenflows/vf/scenario_definition/type.ex",
+    "line": 109,
+    "auth": "S",
+    "resolver": "update_scenario_definition"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_scenario_definition",
+    "name": "deleteScenarioDefinition",
+    "symbol": "delete_scenario_definition",
+    "path": "src/zenflows/vf/scenario_definition/type.ex",
+    "line": 114,
+    "auth": "S",
+    "resolver": "delete_scenario_definition"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_spatial_thing",
+    "name": "createSpatialThing",
+    "symbol": "create_spatial_thing",
+    "path": "src/zenflows/vf/spatial_thing/type.ex",
+    "line": 134,
+    "auth": "S",
+    "resolver": "create_spatial_thing"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_spatial_thing",
+    "name": "updateSpatialThing",
+    "symbol": "update_spatial_thing",
+    "path": "src/zenflows/vf/spatial_thing/type.ex",
+    "line": 139,
+    "auth": "S",
+    "resolver": "update_spatial_thing"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_spatial_thing",
+    "name": "deleteSpatialThing",
+    "symbol": "delete_spatial_thing",
+    "path": "src/zenflows/vf/spatial_thing/type.ex",
+    "line": 144,
+    "auth": "S",
+    "resolver": "delete_spatial_thing"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_sw_pass",
+    "name": "importRepos",
+    "symbol": "import_repos",
+    "path": "src/zenflows/sw_pass/type.ex",
+    "line": 38,
+    "auth": "A",
+    "resolver": "import_repos"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_unit",
+    "name": "createUnit",
+    "symbol": "create_unit",
+    "path": "src/zenflows/vf/unit/type.ex",
+    "line": 91,
+    "auth": "S",
+    "resolver": "create_unit"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_unit",
+    "name": "updateUnit",
+    "symbol": "update_unit",
+    "path": "src/zenflows/vf/unit/type.ex",
+    "line": 96,
+    "auth": "S",
+    "resolver": "update_unit"
+  },
+  {
+    "kind": "mutation",
+    "group": "mutation_unit",
+    "name": "deleteUnit",
+    "symbol": "delete_unit",
+    "path": "src/zenflows/vf/unit/type.ex",
+    "line": 101,
+    "auth": "S",
+    "resolver": "delete_unit"
+  },
+  {
+    "kind": "query",
+    "group": "query",
+    "name": "echo",
+    "symbol": "echo",
+    "path": "src/zenflows/gql/schema.ex",
+    "line": 76,
+    "auth": "S",
+    "resolver": null
+  },
+  {
+    "kind": "query",
+    "group": "query_agent",
+    "name": "myAgent",
+    "symbol": "my_agent",
+    "path": "src/zenflows/vf/agent/type.ex",
+    "line": 80,
+    "auth": "S",
+    "resolver": "my_agent"
+  },
+  {
+    "kind": "query",
+    "group": "query_agent",
+    "name": "agent",
+    "symbol": "agent",
+    "path": "src/zenflows/vf/agent/type.ex",
+    "line": 85,
+    "auth": "S",
+    "resolver": "agent"
+  },
+  {
+    "kind": "query",
+    "group": "query_agent",
+    "name": "agents",
+    "symbol": "agents",
+    "path": "src/zenflows/vf/agent/type.ex",
+    "line": 94,
+    "auth": "S",
+    "resolver": "agents"
+  },
+  {
+    "kind": "query",
+    "group": "query_agent_relationship",
+    "name": "agentRelationship",
+    "symbol": "agent_relationship",
+    "path": "src/zenflows/vf/agent_relationship/type.ex",
+    "line": 120,
+    "auth": "S",
+    "resolver": "agent_relationship"
+  },
+  {
+    "kind": "query",
+    "group": "query_agent_relationship",
+    "name": "agentRelationships",
+    "symbol": "agent_relationships",
+    "path": "src/zenflows/vf/agent_relationship/type.ex",
+    "line": 129,
+    "auth": "S",
+    "resolver": "agent_relationships"
+  },
+  {
+    "kind": "query",
+    "group": "query_agent_relationship_role",
+    "name": "agentRelationshipRole",
+    "symbol": "agent_relationship_role",
+    "path": "src/zenflows/vf/agent_relationship_role/type.ex",
+    "line": 101,
+    "auth": "S",
+    "resolver": "agent_relationship_role"
+  },
+  {
+    "kind": "query",
+    "group": "query_agent_relationship_role",
+    "name": "agentRelationshipRoles",
+    "symbol": "agent_relationship_roles",
+    "path": "src/zenflows/vf/agent_relationship_role/type.ex",
+    "line": 110,
+    "auth": "S",
+    "resolver": "agent_relationship_roles"
+  },
+  {
+    "kind": "query",
+    "group": "query_agreement",
+    "name": "agreement",
+    "symbol": "agreement",
+    "path": "src/zenflows/vf/agreement/type.ex",
+    "line": 80,
+    "auth": "S",
+    "resolver": "agreement"
+  },
+  {
+    "kind": "query",
+    "group": "query_agreement",
+    "name": "agreements",
+    "symbol": "agreements",
+    "path": "src/zenflows/vf/agreement/type.ex",
+    "line": 85,
+    "auth": "S",
+    "resolver": "agreements"
+  },
+  {
+    "kind": "query",
+    "group": "query_economic_event",
+    "name": "economicEvent",
+    "symbol": "economic_event",
+    "path": "src/zenflows/vf/economic_event/type.ex",
+    "line": 312,
+    "auth": "S",
+    "resolver": "economic_event"
+  },
+  {
+    "kind": "query",
+    "group": "query_economic_event",
+    "name": "economicEvents",
+    "symbol": "economic_events",
+    "path": "src/zenflows/vf/economic_event/type.ex",
+    "line": 317,
+    "auth": "S",
+    "resolver": "economic_events"
+  },
+  {
+    "kind": "query",
+    "group": "query_economic_resource",
+    "name": "economicResource",
+    "symbol": "economic_resource",
+    "path": "src/zenflows/vf/economic_resource/type.ex",
+    "line": 319,
+    "auth": "G",
+    "resolver": "economic_resource"
+  },
+  {
+    "kind": "query",
+    "group": "query_economic_resource",
+    "name": "economicResources",
+    "symbol": "economic_resources",
+    "path": "src/zenflows/vf/economic_resource/type.ex",
+    "line": 325,
+    "auth": "G",
+    "resolver": "economic_resources"
+  },
+  {
+    "kind": "query",
+    "group": "query_economic_resource",
+    "name": "economicResourceClassifications",
+    "symbol": "economic_resource_classifications",
+    "path": "src/zenflows/vf/economic_resource/type.ex",
+    "line": 336,
+    "auth": "S",
+    "resolver": "economic_resource_classifications"
+  },
+  {
+    "kind": "query",
+    "group": "query_inst_vars",
+    "name": "instanceVariables",
+    "symbol": "instance_variables",
+    "path": "src/zenflows/inst_vars/type.ex",
+    "line": 59,
+    "auth": "G",
+    "resolver": "instance_variables"
+  },
+  {
+    "kind": "query",
+    "group": "query_intent",
+    "name": "intent",
+    "symbol": "intent",
+    "path": "src/zenflows/vf/intent/type.ex",
+    "line": 324,
+    "auth": "S",
+    "resolver": "intent"
+  },
+  {
+    "kind": "query",
+    "group": "query_intent",
+    "name": "intents",
+    "symbol": "intents",
+    "path": "src/zenflows/vf/intent/type.ex",
+    "line": 329,
+    "auth": "S",
+    "resolver": "intents"
+  },
+  {
+    "kind": "query",
+    "group": "query_organization",
+    "name": "organization",
+    "symbol": "organization",
+    "path": "src/zenflows/vf/organization/type.ex",
+    "line": 119,
+    "auth": "S",
+    "resolver": "organization"
+  },
+  {
+    "kind": "query",
+    "group": "query_organization",
+    "name": "organizations",
+    "symbol": "organizations",
+    "path": "src/zenflows/vf/organization/type.ex",
+    "line": 128,
+    "auth": "S",
+    "resolver": "organizations"
+  },
+  {
+    "kind": "query",
+    "group": "query_person",
+    "name": "person",
+    "symbol": "person",
+    "path": "src/zenflows/vf/person/type.ex",
+    "line": 181,
+    "auth": "S",
+    "resolver": "person"
+  },
+  {
+    "kind": "query",
+    "group": "query_person",
+    "name": "people",
+    "symbol": "people",
+    "path": "src/zenflows/vf/person/type.ex",
+    "line": 190,
+    "auth": "S",
+    "resolver": "people"
+  },
+  {
+    "kind": "query",
+    "group": "query_person",
+    "name": "personExists",
+    "symbol": "person_exists",
+    "path": "src/zenflows/vf/person/type.ex",
+    "line": 200,
+    "auth": "G",
+    "resolver": "person_exists"
+  },
+  {
+    "kind": "query",
+    "group": "query_person",
+    "name": "personCheck",
+    "symbol": "person_check",
+    "path": "src/zenflows/vf/person/type.ex",
+    "line": 208,
+    "auth": "G",
+    "resolver": "person_check"
+  },
+  {
+    "kind": "query",
+    "group": "query_person",
+    "name": "personPubkey",
+    "symbol": "person_pubkey",
+    "path": "src/zenflows/vf/person/type.ex",
+    "line": 216,
+    "auth": "G",
+    "resolver": "person_pubkey"
+  },
+  {
+    "kind": "query",
+    "group": "query_plan",
+    "name": "plan",
+    "symbol": "plan",
+    "path": "src/zenflows/vf/plan/type.ex",
+    "line": 108,
+    "auth": "S",
+    "resolver": "plan"
+  },
+  {
+    "kind": "query",
+    "group": "query_plan",
+    "name": "plans",
+    "symbol": "plans",
+    "path": "src/zenflows/vf/plan/type.ex",
+    "line": 113,
+    "auth": "S",
+    "resolver": "plans"
+  },
+  {
+    "kind": "query",
+    "group": "query_process",
+    "name": "process",
+    "symbol": "process",
+    "path": "src/zenflows/vf/process/type.ex",
+    "line": 189,
+    "auth": "S",
+    "resolver": "process"
+  },
+  {
+    "kind": "query",
+    "group": "query_process",
+    "name": "processes",
+    "symbol": "processes",
+    "path": "src/zenflows/vf/process/type.ex",
+    "line": 194,
+    "auth": "S",
+    "resolver": "processes"
+  },
+  {
+    "kind": "query",
+    "group": "query_process_group",
+    "name": "processGroup",
+    "symbol": "process_group",
+    "path": "src/zenflows/vf/process_group/type.ex",
+    "line": 134,
+    "auth": "S",
+    "resolver": "process_group"
+  },
+  {
+    "kind": "query",
+    "group": "query_process_group",
+    "name": "processGroups",
+    "symbol": "process_groups",
+    "path": "src/zenflows/vf/process_group/type.ex",
+    "line": 139,
+    "auth": "S",
+    "resolver": "process_groups"
+  },
+  {
+    "kind": "query",
+    "group": "query_process_specification",
+    "name": "processSpecification",
+    "symbol": "process_specification",
+    "path": "src/zenflows/vf/process_specification/type.ex",
+    "line": 76,
+    "auth": "S",
+    "resolver": "process_specification"
+  },
+  {
+    "kind": "query",
+    "group": "query_process_specification",
+    "name": "processSpecifications",
+    "symbol": "process_specifications",
+    "path": "src/zenflows/vf/process_specification/type.ex",
+    "line": 81,
+    "auth": "S",
+    "resolver": "process_specifications"
+  },
+  {
+    "kind": "query",
+    "group": "query_product_batch",
+    "name": "productBatch",
+    "symbol": "product_batch",
+    "path": "src/zenflows/vf/product_batch/type.ex",
+    "line": 90,
+    "auth": "S",
+    "resolver": "product_batch"
+  },
+  {
+    "kind": "query",
+    "group": "query_product_batch",
+    "name": "productBatches",
+    "symbol": "product_batches",
+    "path": "src/zenflows/vf/product_batch/type.ex",
+    "line": 95,
+    "auth": "S",
+    "resolver": "product_batches"
+  },
+  {
+    "kind": "query",
+    "group": "query_proposal",
+    "name": "proposal",
+    "symbol": "proposal",
+    "path": "src/zenflows/vf/proposal/type.ex",
+    "line": 163,
+    "auth": "S",
+    "resolver": "proposal"
+  },
+  {
+    "kind": "query",
+    "group": "query_proposal",
+    "name": "proposals",
+    "symbol": "proposals",
+    "path": "src/zenflows/vf/proposal/type.ex",
+    "line": 168,
+    "auth": "G",
+    "resolver": "proposals"
+  },
+  {
+    "kind": "query",
+    "group": "query_proposal",
+    "name": "offers",
+    "symbol": "offers",
+    "path": "src/zenflows/vf/proposal/type.ex",
+    "line": 179,
+    "auth": "S",
+    "resolver": "offers"
+  },
+  {
+    "kind": "query",
+    "group": "query_proposal",
+    "name": "requests",
+    "symbol": "requests",
+    "path": "src/zenflows/vf/proposal/type.ex",
+    "line": 188,
+    "auth": "S",
+    "resolver": "offers"
+  },
+  {
+    "kind": "query",
+    "group": "query_recipe_exchange",
+    "name": "recipeExchange",
+    "symbol": "recipe_exchange",
+    "path": "src/zenflows/vf/recipe_exchange/type.ex",
+    "line": 76,
+    "auth": "S",
+    "resolver": "recipe_exchange"
+  },
+  {
+    "kind": "query",
+    "group": "query_recipe_exchange",
+    "name": "recipeExchanges",
+    "symbol": "recipe_exchanges",
+    "path": "src/zenflows/vf/recipe_exchange/type.ex",
+    "line": 81,
+    "auth": "S",
+    "resolver": "recipe_exchanges"
+  },
+  {
+    "kind": "query",
+    "group": "query_recipe_flow",
+    "name": "recipeFlow",
+    "symbol": "recipe_flow",
+    "path": "src/zenflows/vf/recipe_flow/type.ex",
+    "line": 159,
+    "auth": "S",
+    "resolver": "recipe_flow"
+  },
+  {
+    "kind": "query",
+    "group": "query_recipe_flow",
+    "name": "recipeFlows",
+    "symbol": "recipe_flows",
+    "path": "src/zenflows/vf/recipe_flow/type.ex",
+    "line": 164,
+    "auth": "S",
+    "resolver": "recipe_flows"
+  },
+  {
+    "kind": "query",
+    "group": "query_recipe_process",
+    "name": "recipeProcess",
+    "symbol": "recipe_process",
+    "path": "src/zenflows/vf/recipe_process/type.ex",
+    "line": 116,
+    "auth": "S",
+    "resolver": "recipe_process"
+  },
+  {
+    "kind": "query",
+    "group": "query_recipe_process",
+    "name": "recipeProcesses",
+    "symbol": "recipe_processes",
+    "path": "src/zenflows/vf/recipe_process/type.ex",
+    "line": 121,
+    "auth": "S",
+    "resolver": "recipe_processes"
+  },
+  {
+    "kind": "query",
+    "group": "query_recipe_resource",
+    "name": "recipeResource",
+    "symbol": "recipe_resource",
+    "path": "src/zenflows/vf/recipe_resource/type.ex",
+    "line": 160,
+    "auth": "S",
+    "resolver": "recipe_resource"
+  },
+  {
+    "kind": "query",
+    "group": "query_recipe_resource",
+    "name": "recipeResources",
+    "symbol": "recipe_resources",
+    "path": "src/zenflows/vf/recipe_resource/type.ex",
+    "line": 165,
+    "auth": "S",
+    "resolver": "recipe_resources"
+  },
+  {
+    "kind": "query",
+    "group": "query_resource_specification",
+    "name": "resourceSpecification",
+    "symbol": "resource_specification",
+    "path": "src/zenflows/vf/resource_specification/type.ex",
+    "line": 126,
+    "auth": "S",
+    "resolver": "resource_specification"
+  },
+  {
+    "kind": "query",
+    "group": "query_resource_specification",
+    "name": "resourceSpecifications",
+    "symbol": "resource_specifications",
+    "path": "src/zenflows/vf/resource_specification/type.ex",
+    "line": 131,
+    "auth": "S",
+    "resolver": "resource_specifications"
+  },
+  {
+    "kind": "query",
+    "group": "query_role_behavior",
+    "name": "roleBehavior",
+    "symbol": "role_behavior",
+    "path": "src/zenflows/vf/role_behavior/type.ex",
+    "line": 78,
+    "auth": "S",
+    "resolver": "role_behavior"
+  },
+  {
+    "kind": "query",
+    "group": "query_role_behavior",
+    "name": "roleBehaviors",
+    "symbol": "role_behaviors",
+    "path": "src/zenflows/vf/role_behavior/type.ex",
+    "line": 83,
+    "auth": "S",
+    "resolver": "role_behaviors"
+  },
+  {
+    "kind": "query",
+    "group": "query_satisfaction",
+    "name": "satisfaction",
+    "symbol": "satisfaction",
+    "path": "src/zenflows/vf/satisfaction/type.ex",
+    "line": 137,
+    "auth": "S",
+    "resolver": "satisfaction"
+  },
+  {
+    "kind": "query",
+    "group": "query_satisfaction",
+    "name": "satisfactions",
+    "symbol": "satisfactions",
+    "path": "src/zenflows/vf/satisfaction/type.ex",
+    "line": 142,
+    "auth": "S",
+    "resolver": "satisfactions"
+  },
+  {
+    "kind": "query",
+    "group": "query_scenario",
+    "name": "scenario",
+    "symbol": "scenario",
+    "path": "src/zenflows/vf/scenario/type.ex",
+    "line": 133,
+    "auth": "S",
+    "resolver": "scenario"
+  },
+  {
+    "kind": "query",
+    "group": "query_scenario",
+    "name": "scenarios",
+    "symbol": "scenarios",
+    "path": "src/zenflows/vf/scenario/type.ex",
+    "line": 138,
+    "auth": "S",
+    "resolver": "scenarios"
+  },
+  {
+    "kind": "query",
+    "group": "query_scenario_definition",
+    "name": "scenarioDefinition",
+    "symbol": "scenario_definition",
+    "path": "src/zenflows/vf/scenario_definition/type.ex",
+    "line": 89,
+    "auth": "S",
+    "resolver": "scenario_definition"
+  },
+  {
+    "kind": "query",
+    "group": "query_scenario_definition",
+    "name": "scenarioDefinitions",
+    "symbol": "scenario_definitions",
+    "path": "src/zenflows/vf/scenario_definition/type.ex",
+    "line": 94,
+    "auth": "S",
+    "resolver": "scenario_definitions"
+  },
+  {
+    "kind": "query",
+    "group": "query_spatial_thing",
+    "name": "spatialThing",
+    "symbol": "spatial_thing",
+    "path": "src/zenflows/vf/spatial_thing/type.ex",
+    "line": 119,
+    "auth": "S",
+    "resolver": "spatial_thing"
+  },
+  {
+    "kind": "query",
+    "group": "query_spatial_thing",
+    "name": "spatialThings",
+    "symbol": "spatial_things",
+    "path": "src/zenflows/vf/spatial_thing/type.ex",
+    "line": 124,
+    "auth": "S",
+    "resolver": "spatial_things"
+  },
+  {
+    "kind": "query",
+    "group": "query_sw_pass",
+    "name": "projectAgents",
+    "symbol": "project_agents",
+    "path": "src/zenflows/sw_pass/type.ex",
+    "line": 28,
+    "auth": "S",
+    "resolver": "project_agents"
+  },
+  {
+    "kind": "query",
+    "group": "query_unit",
+    "name": "unit",
+    "symbol": "unit",
+    "path": "src/zenflows/vf/unit/type.ex",
+    "line": 76,
+    "auth": "S",
+    "resolver": "unit"
+  },
+  {
+    "kind": "query",
+    "group": "query_unit",
+    "name": "units",
+    "symbol": "units",
+    "path": "src/zenflows/vf/unit/type.ex",
+    "line": 81,
+    "auth": "S",
+    "resolver": "units"
+  }
+]

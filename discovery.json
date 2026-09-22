@@ -1,0 +1,142 @@
+[
+  {
+    "name": "zenflows",
+    "url": "https://github.com/interfacerproject/zenflows",
+    "archived": false
+  },
+  {
+    "name": "zenswarm-storage",
+    "url": "https://github.com/interfacerproject/zenswarm-storage",
+    "archived": false
+  },
+  {
+    "name": "zenflows-crypto",
+    "url": "https://github.com/interfacerproject/zenflows-crypto",
+    "archived": false
+  },
+  {
+    "name": "planetmint-interfacer",
+    "url": "https://github.com/interfacerproject/planetmint-interfacer",
+    "archived": false
+  },
+  {
+    "name": "loshifacer",
+    "url": "https://github.com/interfacerproject/loshifacer",
+    "archived": false
+  },
+  {
+    "name": "interfacer-gui",
+    "url": "https://github.com/interfacerproject/interfacer-gui",
+    "archived": false
+  },
+  {
+    "name": "interfacer-docs",
+    "url": "https://github.com/interfacerproject/interfacer-docs",
+    "archived": false
+  },
+  {
+    "name": "interfacer-proxy",
+    "url": "https://github.com/interfacerproject/interfacer-proxy",
+    "archived": false
+  },
+  {
+    "name": "Node-RED_Interfacer",
+    "url": "https://github.com/interfacerproject/Node-RED_Interfacer",
+    "archived": false
+  },
+  {
+    "name": "Interfacer-notebook",
+    "url": "https://github.com/interfacerproject/Interfacer-notebook",
+    "archived": false
+  },
+  {
+    "name": ".github",
+    "url": "https://github.com/interfacerproject/.github",
+    "archived": false
+  },
+  {
+    "name": "zenflows-inbox",
+    "url": "https://github.com/interfacerproject/zenflows-inbox",
+    "archived": false
+  },
+  {
+    "name": "workflows",
+    "url": "https://github.com/interfacerproject/workflows",
+    "archived": false
+  },
+  {
+    "name": "Interfacer_DPP-visualisations",
+    "url": "https://github.com/interfacerproject/Interfacer_DPP-visualisations",
+    "archived": false
+  },
+  {
+    "name": "zenflows-wallet",
+    "url": "https://github.com/interfacerproject/zenflows-wallet",
+    "archived": false
+  },
+  {
+    "name": "zenflows-osh",
+    "url": "https://github.com/interfacerproject/zenflows-osh",
+    "archived": false
+  },
+  {
+    "name": "README",
+    "url": "https://github.com/interfacerproject/README",
+    "archived": false
+  },
+  {
+    "name": "zenflows-fabaccess",
+    "url": "https://github.com/interfacerproject/zenflows-fabaccess",
+    "archived": false
+  },
+  {
+    "name": "reuse",
+    "url": "https://github.com/interfacerproject/reuse",
+    "archived": false
+  },
+  {
+    "name": "zenflows-bank",
+    "url": "https://github.com/interfacerproject/zenflows-bank",
+    "archived": false
+  },
+  {
+    "name": "EconSim",
+    "url": "https://github.com/interfacerproject/EconSim",
+    "archived": false
+  },
+  {
+    "name": "interfacer-dpp",
+    "url": "https://github.com/interfacerproject/interfacer-dpp",
+    "archived": false
+  },
+  {
+    "name": "DTECH_HSU_2025_OPS",
+    "url": "https://github.com/interfacerproject/DTECH_HSU_2025_OPS",
+    "archived": false
+  },
+  {
+    "name": "interfacer-feedback-service",
+    "url": "https://github.com/interfacerproject/interfacer-feedback-service",
+    "archived": false
+  },
+  {
+    "name": "dtech-example-data-injection",
+    "url": "https://github.com/interfacerproject/dtech-example-data-injection",
+    "archived": false
+  },
+  {
+    "name": "interfacer-client",
+    "url": "https://github.com/interfacerproject/interfacer-client",
+    "archived": false
+  },
+  {
+    "name": "interfacer-client-sdk-docs",
+    "url": "https://github.com/interfacerproject/interfacer-client-sdk-docs",
+    "archived": false
+  },
+  {
+    "name": "interfacer-3d-demo-models",
+    "url": "https://github.com/interfacerproject/interfacer-3d-demo-models",
+    "archived": false
+  }
+]

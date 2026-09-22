@@ -1,0 +1,3 @@
+# Dipendenze dirette del sito. Per una build riproducibile usare requirements.lock.
+mkdocs==1.6.1
+mkdocs-material==9.6.14
